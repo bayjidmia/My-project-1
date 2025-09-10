@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.5) ;
+}
+
+.raleway-font{
+    font-family: "Raleway", sans-serif;
+    font: bold;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1024px;
+}
+.flex{
+    display: flex;
+   }
+.banner-container{
+    background-image: url(Hero-bg.png);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 300px;
+    padding: 30px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 200px;
+}
+
+.btn-1{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btn-2{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+     height: 30px;
+     width: 120px;
+     border-radius: 10px;
+     margin-top: 20px;
+}
+
+
+.action-container{
+    display: flex;
+    margin-top: 50px;
+}
+.action-left{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+   
+}
+.img-1{
+    width: 400px;
+    height: 250px;
+    border-radius: 48px;
+}
+.action-p{
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btn-3{
+     background-color: rgba(78, 71, 255, 1);
+    color: white;
+    width: 200px;
+    height: 30px;
+     border-radius: 10px;
+}
+
+
+.productive{
+    text-align: center;
+    margin-top: 80px;
+   padding: 40px;
+   font: bold;
+   
+}
+
+.user{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+.active-user{
+    padding:80px;
+}
+
+.font-color{
+    color:rgba(78, 71, 255, 1) ;
+    font: bold;
+    font-size: xx-large;
+}
+
+.description{
+    color:rgba(0, 0, 0, 0.5) ;
+}
+.center{
+    text-align: center;
+}
+
